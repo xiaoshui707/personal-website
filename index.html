@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="welcome-section">
+            <div class="welcome-text">
+                <p class="typewriter"></p>
+            </div>
+            <div class="scroll-hint">
+                <span>向下滚动，了解更多</span>
+                <div class="arrows">
+                    <span class="arrow">▼</span>
+                    <span class="arrow">▼</span>
+                    <span class="arrow">▼</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="overlay"></div>
+            <div class="main-content">
+                <!-- 固定的共同信息层 -->
+                <div class="common-info">
+                    <div class="avatar-container">
+                        <img src="asset/touxiang.png" alt="头像" class="avatar">
+                    </div>
+                    <div class="name-container">
+                        <span class="name">蒋蕊</span>
+                    </div>
+                    <div class="age-container">
+                        <img src="asset/nu.png" alt="性别" class="gender-icon">
+                        <span class="age-number">24</span>
+                    </div>
+                    <div class="contact-info-container">
+                        <div class="contact-row">
+                            <div class="icon-wrapper">
+                                <img src="asset/dianhua.png" alt="电话" class="contact-icon">
+                            </div>
+                            <span class="contact-text">13312354673</span>
+                        </div>
+                        <div class="contact-row">
+                            <div class="icon-wrapper">
+                                <img src="asset/youxiang.png" alt="邮箱" class="contact-icon">
+                            </div>
+                            <span class="contact-text">707596717@qq.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 各部分特有的内容 -->
+                <div class="content info-type active" id="info">
+                    <div class="unique-content">
+                        <!-- 自我评价部分 -->
+                        <div class="self-evaluation">
+                            <div class="title-container">
+                                <img src="asset/titleBack.png" alt="标题背景" class="title-bg">
+                                <h3 class="section-title">自我评价</h3>
+                            </div>
+                            
+                            <div class="evaluation-points">
+                                <div class="point">
+                                    <span class="star">★</span>
+                                    <p><strong>游戏专业积累：</strong>过往经历中，曾担任游戏策划实习生，也曾经创办游戏公司，参与了多个项目的规划与执行，不仅让我深入了解了游戏开发的流程，还培养了我对玩家行为和市场需求敏锐的洞察力；</p>
+                                </div>
+                                <div class="point">
+                                    <span class="star">★</span>
+                                    <p><strong>媒体传播：</strong>数字媒体技术专业，拥有扎实的数字媒体技术的理论及实践基础，熟悉小红书、公众号、微博等平台的推广策略，同时具备图文及视频内容制作能力，能独立完成内容制作、发布、运营工作。</p>
+                                </div>
+                                <div class="point">
+                                    <span class="star">★</span>
+                                    <p><strong>综合素质：</strong>于硕士首学期以专业前20%成绩 获 三等奖学金，具备高效的自我规划、时间管理能力。</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 技能和爱好部分 -->
+                        <div class="skills-hobbies">
+                            <div class="title-container">
+                                <img src="asset/titleBack.png" alt="标题背景" class="title-bg">
+                                <h3 class="section-title">技能和爱好</h3>
+                            </div>
+                            
+                            <!-- 图标网格 -->
+                            <div class="icons-grid">
+                                <!-- 第一行 -->
+                                <div class="icon-item">
+                                    <img src="asset/ihao01.png" alt="技能1">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao02.png" alt="技能2">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao03.png" alt="技能3">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao04.png" alt="技能4">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao05.png" alt="技能5">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao06.png" alt="技能6">
+                                </div>
+                                
+                                <!-- 第二行 -->
+                                <div class="icon-item">
+                                    <img src="asset/ihao07.png" alt="技能7">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao08.png" alt="技能8">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao09.png" alt="技能9">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao10.png" alt="技能10">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao11.png" alt="技能11">
+                                </div>
+                                <div class="icon-item">
+                                    <img src="asset/ihao12.png" alt="技能12">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content info-type" id="campus">
+                    <div class="unique-content">
+                        <!-- 教育信息部分 -->
+                        <div class="education-info">
+                            <div class="title-container">
+                                <img src="asset/titleBack.png" alt="标题背景" class="title-bg">
+                                <h3 class="section-title">教育信息</h3>
+                            </div>
+                            
+                            <div class="education-list">
+                                <!-- 第一条教育经历 -->
+                                <div class="education-item">
+                                    <div class="school-logo">
+                                        <img src="asset/school01.jpg" alt="学校1">
+                                        <div class="school-name">香港浸会大学</div>
+                                    </div>
+                                    <div class="study-period">
+                                        2024.09 - 2025.10 
+                                    </div>
+                                    <div class="degree-info">
+                                        <span class="major-name">人工智能和数字媒体</span>
+                                        <div class="major-detail">
+                                            推荐系统、数字媒体人工智能、大数据管理、数据挖掘与知识发现、商业智能
+                                        </div>
+                                        <strong>硕士研究生</strong>
+                                    </div>
+                                </div>
+                                
+                                <!-- 第二条教育经历 -->
+                                <div class="education-item">
+                                    <div class="school-logo">
+                                        <img src="asset/school02.png" alt="学校2">
+                                        <div class="school-name">厦门大学</div>
+                                    </div>
+                                    <div class="study-period">
+                                        2019.09 - 2023.06 
+                                    </div>
+                                    <div class="degree-info">
+                                        <span class="major-name">数字媒体技术</span>
+                                        <div class="major-detail">
+                                            游戏设计、人机交互、嵌入式游戏设计与开发、3D动画、增强现实技术与设计
+                                        </div>
+                                        <strong>学士</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 在校经历部分 -->
+                        <div class="campus-experience">
+                            <div class="title-container">
+                                <img src="asset/titleBack.png" alt="标题背景" class="title-bg">
+                                <h3 class="section-title">在校经历</h3>
+                            </div>
+                            
+                            <div class="experience-content">
+                                <!-- 第一个经历 -->
+                                <div class="experience-header">
+                                    <img src="asset/square-image.png" alt="经历图片" class="experience-image">
+                                    <div class="experience-info">
+                                        <div class="info-text"><strong>美编</strong>——厦门大学马来西亚分校官⽅公众号</div>
+                                        <div class="info-icons">
+                                            <img src="asset/icon1.png" alt="图标1" class="info-icon">
+                                            <img src="asset/icon2.png" alt="图标2" class="info-icon">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="experience-description">
+                                    <div class="point">
+                                        <span class="star">★</span>
+                                        <p><strong>选题策划：</strong>根据校园生活、学术动态等，负责公众号推文的选题策划工作，每月完成8-10个选题策划；</p>
+                                    </div>
+                                    <div class="point">
+                                        <span class="star">★</span>
+                                        <p><strong>图文设计：</strong>设计和制作首张展示图片、文章版面，通过合理布局、字体选择和色彩搭配，给用户带来良好体验，增加文章的转发率。</p>
+                                    </div>
+                                </div>
+
+                                <!-- 第二个经历（复制的内容） -->
+                                <div class="experience-header" style="margin-top: 5px;"> <!-- 添加上边距 -->
+                                    <img src="asset/square-image.png" alt="经历图片" class="experience-image">
+                                    <div class="experience-info">
+                                        <div class="info-text"><strong>⽂娱部设计部部长</strong>——厦门大学马来西亚分校学⽣会</div>
+                                        <div class="info-icons">
+                                            <img src="asset/icon1.png" alt="图标1" class="info-icon">
+                                            <img src="asset/icon3.png" alt="图标3" class="info-icon">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="experience-description">
+                                    <div class="point">
+                                        <span class="star">★</span>
+                                        <p><strong>活动策划：</strong>负责策划并组织各类主题活动，完成主题策划、物料准备、场地选择与布置等工作，在职期间，组织的活动最高参与人数达到了500人；</p>
+                                    </div>
+                                    <div class="point">
+                                        <span class="star">★</span>
+                                        <p><strong>团队管理与协调：</strong>负责团队的计划与分工，并负责与外部团队的沟通协调，共同推动活动顺利进行。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content info-type" id="internship">
+                    <div class="unique-content">
+                        <!-- 添加实习经历标题 -->
+                        <div class="title-container">
+                            <img src="asset/titleBack.png" alt="标题背景" class="title-bg">
+                            <h3 class="section-title">实习经历</h3>
+                        </div>
+                        
+                        <!-- 第一个实习经历 -->
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <div class="info-text"><strong>合伙⼈和游戏策划</strong>—长沙趣玩锤⼦软件开发有限公司——<strong>2023.05-2024.05</strong></div>
+                                <div class="info-icons">
+                                    <img src="asset/icon3.png" alt="图标3" class="info-icon">
+                                    <img src="asset/icon1.png" alt="图标1" class="info-icon">
+                                    <img src="asset/icon6.png" alt="图标6" class="info-icon">
+                                    <img src="asset/icon5.png" alt="图标5" class="info-icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-description">
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>团队协作与管理</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>游戏设计</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>开发与运营</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>数据收集与游戏优化</p>
+                            </div>
+                        </div>
+
+                        <!-- 第二个实习经历 -->
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <div class="info-text"><strong>游戏策划</strong>——长沙乐控互动科技有限公司——<strong>2023.03-2023.04</strong></div>
+                                <div class="info-icons">
+                                    <img src="asset/icon2.png" alt="图标2" class="info-icon">
+                                    <img src="asset/icon1.png" alt="图标1" class="info-icon">
+                                    <img src="asset/icon3.png" alt="图标3" class="info-icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-description">
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>关卡设计</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>关卡迭代与更新</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>跨部门协作</p>
+                            </div>
+                        </div>
+
+                        <!-- 第三个实习经历 -->
+                        <div class="experience-header">
+                            <div class="experience-info">
+                                <div class="info-text"><strong>品牌推广</strong>——湖南快乐阳光互动娱乐传媒有限公司——<strong>2020.08-2020.11</strong></div>
+                                <div class="info-icons">
+                                    <img src="asset/icon7.png" alt="图标7" class="info-icon">
+                                    <img src="asset/icon1.png" alt="图标1" class="info-icon">
+                                    <img src="asset/icon4.png" alt="图标4" class="info-icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-description">
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>内容创作</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>宣传活动策划与执行</p>
+                            </div>
+                            <div class="point">
+                                <span class="star">★</span>
+                                <p>密室大逃脱官微内容创作</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content gallery-type" id="portfolio">
+                    <div class="gallery-container">
+                        <!-- 作品1 -->
+                        <div class="gallery-item" data-work-id="1">
+                            <img src="asset/work1.png" alt="作品1">
+                            <div class="gallery-item-info">
+                                <h3>Move To Heaven</h3>
+                                <p>游戏开发</p>
+                            </div>
+                        </div>
+                        <!-- 作品2-6 -->
+                        <div class="gallery-item" data-work-id="2">
+                            <img src="asset/work2.png" alt="作品2">
+                            <div class="gallery-item-info">
+                                <h3>Story of Waste Recycling Plant</h3>
+                                <p>游戏开发</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-work-id="3">
+                            <img src="asset/work3.png" alt="作品3">
+                            <div class="gallery-item-info">
+                                <h3>Chaotic Wedding Party</h3>
+                                <p>游戏开发</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-work-id="4">
+                            <img src="asset/work4.png" alt="作品4">
+                            <div class="gallery-item-info">
+                                <h3>夜间陪伴地毯</h3>
+                                <p>产品设计</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-work-id="5">
+                            <img src="asset/work5.png" alt="作品5">
+                            <div class="gallery-item-info">
+                                <h3>城市屋顶菜园</h3>
+                                <p>产品设计</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-work-id="6">
+                            <img src="asset/work6.png" alt="作品6">
+                            <div class="gallery-item-info">
+                                <h3>预制菜背后</h3>
+                                <p>概念设计</p>
+                            </div>
+                        </div>
+                        <!-- 重复类似结构到作品6 -->
+                    </div>
+
+                    <!-- 弹窗结构 -->
+                    <div class="work-modal" id="workModal">
+                        <div class="modal-content">
+                            <img src="asset/tanchuang.png" alt="弹窗背景" class="modal-bg">
+                            <div class="modal-inner">
+                                <span class="close-modal">&times;</span>
+                                <h2 class="modal-title">作品标题</h2>
+                                <div class="modal-body">
+                                    <!-- 弹窗内容将通过JavaScript动态插入 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <div class="button" data-target="info">
+                    <img src="asset/info-icon.png" alt="个人信息">
+                </div>
+                <div class="button" data-target="campus">
+                    <img src="asset/campus-icon.png" alt="校园经历">
+                </div>
+                <div class="button" data-target="internship">
+                    <img src="asset/internship-icon.png" alt="实习经历">
+                </div>
+                <div class="button" data-target="portfolio">
+                    <img src="asset/portfolio-icon.png" alt="作品集">
+                </div>
+            </div>
+        </div>
+        <a href="https://xiaoshuiashui.github.io/resumetest.github.io/" target="_blank" class="simple-version-btn">
+            <span>简洁版</span>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>    
